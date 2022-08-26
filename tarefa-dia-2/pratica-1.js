@@ -12,4 +12,4 @@ idade = 24
 console.log(idade)
 let viagem
 viagem = "San Francisco"
-console.log(viagem)
+console.log(viagem)    
