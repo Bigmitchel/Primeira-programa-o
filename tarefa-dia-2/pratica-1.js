@@ -1,5 +1,5 @@
-nome;
-e-mail;
-profissão;
-idade;
-Um lugar para viajar;
+let nome
+let e-mail
+let profissão
+let idade
+let Um lugar para viajar
