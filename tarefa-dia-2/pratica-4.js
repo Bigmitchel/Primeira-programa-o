@@ -23,5 +23,17 @@ produtoC.internacional = false
 let impostoInternacional = 1.2
 let impostoNacional = 1.12
 
-if (produtos == true) {console.log(produtos.valor*impostoInternacional)}
-else {console.log(produtos.valor*impostoNacional)}
+// Código para o Produto A.
+if (produtoA.internacional == true)
+{console.log("Produto:" + produtoA.nome + " - Valor com Imposto: " + impostoInternacional*produtoA.valor)}
+else {console.log("Produto:" +produtoA.nome + " - Valor com impostos: " + impostoNacional*produtoA.valor)}
+
+// Código para o Produto B.
+if (produtoB.internacional == true)
+{console.log("Produto:" + produtoB.nome + " - Valor com imposto: " + impostoInternacional*produtoB.valor)}
+else {console.log("Produto:" + produtoB.nome + " - Valor com imposto: " + impostoNacional*produtoB.valor)}
+
+// Código para o Produto C.
+if (produtoC.internacional == true)
+{console.log("Produto:" + produtoC.nome + " - Valor com imposto: " + impostoInternacional*produtoC.valor)}
+else {console.log("Produto:" + produtoC.nome + " - Valor com imposto: " + impostoNacional*produtoC.valor)}
